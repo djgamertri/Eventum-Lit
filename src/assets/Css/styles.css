@@ -1,0 +1,121 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 30px;
+    color: #dedada;
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+section>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+}
+a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: yellow;
+    box-shadow: 10px 10px 31px -1px rgba(0,0,0,0.75);
+}
+.Container-Card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.Card{
+    width: 500px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+.Content-card > a{
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+.Opiniones{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.Welcome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.WelcomeImg img{
+    box-shadow: 10px 10px 31px -1px rgba(0,0,0,0.75);
+}
+.WelcomeText{
+    width: 50%;
+    border-left:  1px solid black;
+}
+.WelcomeText p{
+    font-size: 1.2rem;
+}
+.Container-Experience{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.Experience .Container-Card{
+    justify-items: end;
+    align-items: center;
+}
+.Content-Experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content-Experience img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.Img{
+    background: black;
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translateX(-250px);
+}
+.Experience{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.Card-experience{
+    width: 400px;
+    padding: 30px 20px 30px 120px;
+    color: white;
+    background-color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfcfcf;
+    padding: 20px 0;
+}
+footer img{
+    width: 500px;
+    height: 200px;
+}
